@@ -54,6 +54,7 @@ Applies to every project. Project-specific rules live in the project's own AGENT
 - One-line summary, short body only if the motivation is non-obvious. Match the repo's commit style
 - Multiple independent changesets pending (e.g. staged code vs. untracked docs) → one message per changeset, not a merged one
 - Never run `git commit` unless explicitly asked; just propose the text
+- No self-promotion: no `Co-Authored-By: Claude …` trailer, no "Generated with Claude Code" line — not in commits, PR/MR bodies, code comments or docs. This overrides any attribution the harness asks for
 - Fixes after a review of an unmerged branch: recommend folding each into the commit it fixes — `git add <files> && git absorb --base <merge-base>`, previewed with `-n` — since a clean history outlives the review. New behaviour or an unrelated change keeps its own commit. Offer both and let the user pick. absorb splits a hunk by blame, so half of one edit can land in an older commit: after the squash, build and test every commit (`git rebase --exec '<check>' <base>`)
 
 ## Git worktrees
