@@ -34,8 +34,8 @@
       "skills": ["create-pr", "review-fixes"]
     },
     {
-      "package": "dietrichgebert/ponytail",
-      "skills": ["ponytail"]
+      "package": "DietrichGebert/ponytail",
+      "skills": ["ponytail", "ponytail-review"]
     }
   ]
 }
