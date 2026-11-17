@@ -8,12 +8,12 @@
 
 ```
 
-[![Test](https://github.com/xxsnakerxx/dotfiles/actions/workflows/test.yml/badge.svg)](https://github.com/xxsnakerxx/dotfiles/actions/workflows/test.yml)
+[![Test](https://github.com/dimkol-dm/dotfiles/actions/workflows/test.yml/badge.svg)](https://github.com/dimkol-dm/dotfiles/actions/workflows/test.yml)
 
 ## Installation
 
 ```bash
-git clone https://github.com/xxsnakerxx/dotfiles.git ~/.dotfiles
+git clone https://github.com/dimkol-dm/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 ./scripts/fresh.sh
 ```
